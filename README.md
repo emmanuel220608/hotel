@@ -9,14 +9,17 @@ El usuario puede realizar reservas, cancelar reservas y consultar el estado de c
 
 📂 Estructura del proyecto
 hotel/
+
 ├── Hotel.java      # Código fuente principal
+
 └── README.md       # Documentación del proyecto
 
 🚀 Ejecución
 
 Clonar el repositorio:
 
-git clone https://github.com/tu-usuario/hotel.git
+git clone https://github.com/emmanuel220608/hotel.git
+
 cd hotel
 
 
@@ -40,22 +43,34 @@ Mostrar estado: indica cuáles habitaciones están disponibles u ocupadas con de
 Salir: cierra el programa.
 
 💰 Precios por habitación
-Habitación	Precio por noche
-1	$50.0
-2	$80.0
-3	$50.0
-4	$100.0
-5	$50.0
+
+Habitación	         -----Precio por noche
+
+1------------------$50.0
+
+2------------------	$80.0
+
+3------------------	$50.0
+
+4------------------	$100.0
+
+5------------------	$50.0
+
 🖥️ Ejemplo en consola
+
 --- Menú ---
 1. Reservar habitación
 2. Cancelar reserva
 3. Mostrar estado del hotel
 4. Salir
 Elige una opción: 1
+
 Número de habitación (1-5): 2
+
 Nombre del cliente: Juan Pérez
+
 Número de noches: 3
+
 ✅ Reserva realizada. Total a pagar: $240.0
 
 🤝 Contribuciones
